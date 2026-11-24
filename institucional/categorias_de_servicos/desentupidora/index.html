@@ -984,6 +984,147 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/gitexdedetizadora.com.br\
   });
 })();
 </script>
+<script src="/wp-content/plugins/pro-elements/assets/lib/lottie/lottie.min.js" defer></script>
+<style id="gitex-inst-floating-css">
+@media (max-width: 767px) {
+  body { padding-bottom: 66px !important; }
+}
+.gitex-wa-lottie-fab {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 82px;
+  height: 82px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  opacity: 0;
+  transform: translateY(18px) scale(0.92);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.gitex-wa-lottie-fab.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.gitex-wa-lottie-fab:hover {
+  transform: scale(1.06);
+}
+@media (max-width: 767px) {
+  .gitex-wa-lottie-fab { display: none !important; }
+}
+.gitex-mobile-cta-bar { display: none; }
+@media (max-width: 767px) {
+  .gitex-mobile-cta-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 66px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    box-shadow: 0 -4px 18px rgba(0, 0, 0, 0.22);
+    transform: translateY(100%);
+    transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+    font-family: 'Metropolis', sans-serif;
+  }
+  .gitex-mobile-cta-bar.is-visible {
+    transform: translateY(0);
+  }
+  .gitex-mobile-cta-btn {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 8px;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    line-height: 1.25;
+  }
+  .gitex-mobile-cta-btn--call { background-color: #E22228; }
+  .gitex-mobile-cta-btn--wa { background-color: #03A713; }
+  .gitex-mobile-cta-icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    fill: currentColor;
+  }
+  .gitex-mobile-cta-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.82rem;
+    color: #ffffff;
+  }
+  .gitex-mobile-cta-text strong {
+    font-weight: 700;
+    font-size: 0.86rem;
+  }
+  .gitex-mobile-cta-text--inline {
+    flex-direction: row;
+    gap: 4px;
+    font-size: 0.88rem;
+  }
+}
+</style>
+<a class="gitex-wa-lottie-fab" id="gitex-wa-lottie-fab" href="https://wa.me/5519982245688?text=Ol%C3%A1%2C%20encontrei%20voc%C3%AAs%20no%20*Google*%2C%20gostaria%20de%20um%20or%C3%A7amento..." target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">
+  <span id="gitex-wa-lottie-anim" style="width:82px;height:82px;display:block;"></span>
+</a>
+<div class="gitex-mobile-cta-bar" id="gitex-mobile-cta-bar" role="region" aria-label="Contato rápido">
+  <a class="gitex-mobile-cta-btn gitex-mobile-cta-btn--call" href="tel:+5519982245688">
+    <svg class="gitex-mobile-cta-icon" viewBox="0 0 384 512" aria-hidden="true"><path d="M320 0H64C28.7 0 0 28.7 0 64v384c0 35.3 28.7 64 64 64h256c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64zM192 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-96H64V64h256v320z"/></svg>
+    <span class="gitex-mobile-cta-text">
+      <span>Falar por Telefone</span>
+      <strong>(19) 98224 - 5688</strong>
+    </span>
+  </a>
+  <a class="gitex-mobile-cta-btn gitex-mobile-cta-btn--wa" href="https://wa.me/5519982245688?text=Ol%C3%A1%2C%20encontrei%20voc%C3%AAs%20no%20*Google*%2C%20gostaria%20de%20um%20or%C3%A7amento..." target="_blank" rel="noopener">
+    <svg class="gitex-mobile-cta-icon" viewBox="0 0 448 512" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+    <span class="gitex-mobile-cta-text gitex-mobile-cta-text--inline">
+      <span>Fale por</span>
+      <strong>WhatsApp</strong>
+    </span>
+  </a>
+</div>
+<script>
+(function(){
+  function initFloating(){
+    var fab = document.getElementById('gitex-wa-lottie-fab');
+    var bar = document.getElementById('gitex-mobile-cta-bar');
+    var animEl = document.getElementById('gitex-wa-lottie-anim');
+    if (bar) {
+      setTimeout(function(){ bar.classList.add('is-visible'); }, 350);
+    }
+    if (fab && animEl) {
+      setTimeout(function(){ fab.classList.add('is-visible'); }, 350);
+      function startLottie(){
+        if (window.lottie && typeof window.lottie.loadAnimation === 'function') {
+          window.lottie.loadAnimation({
+            container: animEl,
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: '/wp-content/uploads/2024/10/whatsapp.json'
+          });
+        } else {
+          setTimeout(startLottie, 200);
+        }
+      }
+      startLottie();
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFloating);
+  } else {
+    initFloating();
+  }
+})();
+</script>
+
 </body>
 </html>
 
