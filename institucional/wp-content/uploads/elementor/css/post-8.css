@@ -1,0 +1,87 @@
+.elementor-kit-8{--e-global-color-primary:#363636;--e-global-color-secondary:#2D99FD;--e-global-color-text:#C9CDD6;--e-global-color-accent:#498AFF;--e-global-color-b4b6330:#0C0C0C;--e-global-color-6a62706:#FFFFFF;--e-global-color-1ddbd18:#454545;--e-global-color-bb78249:#067CEB;--e-global-color-88a8aea:#0D4172;--e-global-color-8a43042:#D90101;--e-global-typography-primary-font-family:"Metropolis";--e-global-typography-primary-font-size:2rem;--e-global-typography-primary-font-weight:600;--e-global-typography-primary-line-height:1.3em;--e-global-typography-secondary-font-family:"Metropolis";--e-global-typography-secondary-font-size:2rem;--e-global-typography-secondary-font-weight:400;--e-global-typography-secondary-line-height:1.3em;--e-global-typography-text-font-family:"Metropolis";--e-global-typography-text-font-size:1.5rem;--e-global-typography-text-font-weight:400;--e-global-typography-text-line-height:1.3em;--e-global-typography-accent-font-family:"Metropolis";--e-global-typography-accent-font-size:1rem;--e-global-typography-accent-font-weight:500;--e-global-typography-accent-line-height:1.5em;font-size:1.1rem;line-height:1.5em;}.elementor-kit-8 e-page-transition{background-color:#FFBC7D;}.elementor-kit-8 a{color:var( --e-global-color-6a62706 );font-weight:600;}.elementor-kit-8 a:hover{color:#0D4172;}.elementor-kit-8 h1{font-size:1.5rem;font-weight:600;}.elementor-kit-8 h2{font-size:1.6rem;font-weight:600;}.elementor-kit-8 h3{font-weight:600;}.elementor-kit-8 button,.elementor-kit-8 input[type="button"],.elementor-kit-8 input[type="submit"],.elementor-kit-8 .elementor-button{border-style:none;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1200px;}.e-con{--container-max-width:1200px;--container-default-padding-top:7.5em;--container-default-padding-right:0em;--container-default-padding-bottom:7.5em;--container-default-padding-left:0em;}.elementor-widget:not(:last-child){margin-block-end:0px;}.elementor-element{--widgets-spacing:0px 0px;--widgets-spacing-row:0px;--widgets-spacing-column:0px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1366px){.elementor-kit-8{--e-global-typography-primary-font-size:2rem;--e-global-typography-primary-line-height:1.3em;--e-global-typography-secondary-font-size:2rem;--e-global-typography-secondary-line-height:1.3em;--e-global-typography-text-font-size:1.5rem;--e-global-typography-text-line-height:1.3em;font-size:1rem;}.elementor-kit-8 a{font-size:1.2rem;}.elementor-kit-8 h1{font-size:1.4rem;}.elementor-kit-8 h2{font-size:1.4rem;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:90%;}.e-con{--container-max-width:90%;--container-default-padding-top:7.5px;--container-default-padding-right:0px;--container-default-padding-bottom:7.5px;--container-default-padding-left:0px;}}@media(max-width:1024px){.elementor-kit-8{--e-global-typography-primary-font-size:2rem;--e-global-typography-primary-line-height:1.3em;--e-global-typography-secondary-font-size:2rem;--e-global-typography-secondary-line-height:1.3em;--e-global-typography-text-font-size:1.3rem;--e-global-typography-text-line-height:1.5em;}.elementor-kit-8 p{margin-block-end:1em;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:90%;}.e-con{--container-max-width:90%;--container-default-padding-top:5em;--container-default-padding-right:0em;--container-default-padding-bottom:5em;--container-default-padding-left:0em;}}@media(max-width:767px){.elementor-kit-8{--e-global-typography-primary-font-size:1.5rem;--e-global-typography-primary-line-height:1.2em;--e-global-typography-secondary-font-size:1.5rem;--e-global-typography-secondary-line-height:1.3em;--e-global-typography-text-font-size:1rem;--e-global-typography-text-line-height:1.5em;font-size:0.7rem;}.elementor-kit-8 a{font-size:1rem;}.elementor-kit-8 h2{font-size:1.2rem;}.elementor-kit-8 h3{font-size:1.15rem;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:100%;}.e-con{--container-max-width:100%;--container-default-padding-top:4em;--container-default-padding-right:1.25em;--container-default-padding-bottom:4em;--container-default-padding-left:1.25em;}}@media(min-width:2400px){.elementor-kit-8{--e-global-typography-primary-font-size:2.5rem;--e-global-typography-primary-line-height:1.3em;--e-global-typography-secondary-font-size:2rem;--e-global-typography-secondary-line-height:1.3em;--e-global-typography-text-font-size:1.5rem;--e-global-typography-text-line-height:1.3em;font-size:1em;line-height:1.5em;}.elementor-kit-8 p{margin-block-end:1.5em;}.elementor-kit-8 a{font-size:1.1rem;}.elementor-kit-8 h1{font-size:1.5rem;}.elementor-kit-8 h2{font-size:1.4rem;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1200px;}.e-con{--container-max-width:1200px;--container-default-padding-top:7.5em;--container-default-padding-right:0em;--container-default-padding-bottom:7.5em;--container-default-padding-left:0em;}}/* Start custom CSS */html, body {
+    max-width: 100%; 
+    width: 100% !important;
+    overflow-x: hidden;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.e-con-full {
+  padding:0;
+}
+/* CSS Barra de Rolagem invisível */
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.divisor {
+    position: relative;
+    text-align: center;
+}
+
+.divisor::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -0.5em;
+    width: 40%;
+    border-bottom: .15em solid #067CEB;
+}
+
+.underline {
+   background: #067CEB;
+   background: linear-gradient(90deg, #067CEB 0%, #067CEB 100%);
+   background-repeat: no-repeat;
+   background-size: 100% .35em; /* Linha fina de 2px */
+   background-position: 0 100%; /* Posiciona o gradiente na parte inferior do texto */
+   text-decoration: none; /* Remove a decoração de texto padrão */
+   padding-bottom: 2px; /* Ajuste para dar espaço para o sublinhado */
+}/* End custom CSS */
+/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Metropolis';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url("/wp-content/uploads/2024/10/AnyConv.com__Metropolis-Regular.woff2") format('woff2'),
+		url("/wp-content/uploads/2024/10/Metropolis-Regular.ttf") format('truetype');
+}
+@font-face {
+	font-family: 'Metropolis';
+	font-style: normal;
+	font-weight: 400;
+	font-display: auto;
+	src: url("/wp-content/uploads/2024/10/Metropolis-Regular.ttf") format('truetype');
+}
+@font-face {
+	font-family: 'Metropolis';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url("/wp-content/uploads/2024/10/AnyConv.com__Metropolis-SemiBold.woff2") format('woff2');
+}
+@font-face {
+	font-family: 'Metropolis';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url("/wp-content/uploads/2024/10/Metropolis-SemiBold.ttf") format('truetype');
+}
+@font-face {
+	font-family: 'Metropolis';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url("/wp-content/uploads/2024/10/Metropolis-ExtraBold.woff2") format('woff2');
+}
+@font-face {
+	font-family: 'Metropolis';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url("/wp-content/uploads/2024/10/Metropolis-ExtraBold.ttf") format('truetype');
+}
+/* End Custom Fonts CSS */
